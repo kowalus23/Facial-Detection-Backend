@@ -1,6 +1,10 @@
 This is my backend for https://github.com/kowalus23/Facial-Detection
 
+P.s.
 
+We also need to have newest (at least 12+) version of NODE.
+Because of using - https://www.npmjs.com/package/bcrypt package to hide and secure our passwords, by hash.
+You can decrease version of bcrypt as well, and run on older node's version. Everything about bcrypt is in the link above.
 
 ## Available Scripts
 
