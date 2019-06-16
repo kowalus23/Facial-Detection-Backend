@@ -7,13 +7,18 @@ Because of using - https://www.npmjs.com/package/bcrypt package to hide and secu
 You can decrease version of bcrypt as well, and run on older node's version. Everything about bcrypt is in the link above.
 
 ## Available Scripts
+# Node (ver recomended 12+)
+# Postgres
+
+
+## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm install`
 to install all packages that i used (especially nodemon)
 
-then to run server use(by default it's set on port:3000): 
 ### `npm start`
+run server use(by default it's set on port:3000): 
 
 Also be sure, that your port on front app is correct with listen() at the bottom of server.js file
