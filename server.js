@@ -13,10 +13,8 @@ const db = knex({
   client: 'pg',
   version: '7.2',
   connection: {
-    host: 'postgresql-round-24626',
-    user: 'patrykkowalski',
-    password: '',
-    database: 'facial-detection'
+    host: process.env.DATABASE_URL,
+    ssl: true
   }
 });
 
