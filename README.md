@@ -19,9 +19,9 @@ In the project directory, you can run:
 to install all packages that i used (especially nodemon)
 
 ### `npm start`
-run server use(by default it's set on port:3000): 
+run server use(by default it's set on port:3007): 
 
 Also be sure, that your port on front app is correct with listen() at the bottom of server.js file
 
-### `important!`
-Database is based on Herokus, so if you want yours, you have to add an account and update KEY + create your DB then linked with your project, otherwise it shouldn't work
+## important!
+`Database is based on Heroku (https://dashboard.heroku.com/apps), so if you want yours, you have to add an account and update KEY + create your DB then linked with your project, otherwise it shouldn't work`
